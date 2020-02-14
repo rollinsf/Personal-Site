@@ -122,8 +122,8 @@ p {
     text-align: left;
     background-color: #3A3535;
     color: #F4F4F4;
-
-
+    border-radius: 15%;
+    padding: 0 10px;
     width: 60%;
     margin: 50px auto 0 auto;
     line-height: 1.5;
@@ -135,8 +135,6 @@ p {
     height: 200px;
     width: 400px;
     left: 10%;
-    border-radius: 15%;
-    padding: 0 10px;
 }
 
 .adapt {
@@ -146,8 +144,6 @@ p {
     width: 400px;
     bottom: 30px;
     right: 10%;
-    border-radius: 15%;
-    padding: 0 10px;
 }
 
 .code {
