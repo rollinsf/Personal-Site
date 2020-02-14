@@ -88,18 +88,6 @@ p {
     text-decoration: underline;
 }
 
-.bottom-cloud {
-    position: absolute;
-    bottom: 325px;
-    left: 500px;
-}
-
-.top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
-}
-
 .intro {
     display: inline;
     position: absolute;
@@ -134,26 +122,32 @@ p {
     text-align: left;
     background-color: #3A3535;
     color: #F4F4F4;
-    padding: 0 10px;
-    border-radius: 15%;
+
+
     width: 60%;
     margin: 50px auto 0 auto;
     line-height: 1.5;
 }
 
 .development {
+    background-color: #3A3535;
     position: absolute;
     height: 200px;
     width: 400px;
-    left: 20%;
+    left: 10%;
+    border-radius: 15%;
+    padding: 0 10px;
 }
 
 .adapt {
+    background-color: #3A3535;
     position: absolute;
     height: 200px;
     width: 400px;
     bottom: 30px;
-    right: 30%;
+    right: 10%;
+    border-radius: 15%;
+    padding: 0 10px;
 }
 
 .code {
@@ -233,4 +227,7 @@ p {
 
 .contact-desc {
     margin-bottom: 25px;
+}
+.intro-img {
+    width: 50%;
 }
